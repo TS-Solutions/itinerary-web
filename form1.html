@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Itinerary</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+  <!-- Third party plugin CSS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+  <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+  <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+  <!-- Font special for pages-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Vendor CSS-->
+  <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+  <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/img/logo.png" height="50" alt="itinerary">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Home</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> EN</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09">
+              <a class="dropdown-item" href="#es"><span class="flag-icon flag-icon-es"> </span>  ES</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Masthead-->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-lg-6 text-left">
+          <h1 class="text-uppercase text-white font-weight-bold">Let's create an <span class="text-primary">Itinerary</span> in Spain for you!</h1>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-t-20 p-b-100 font-robo">
+            <div class="">
+              <div class="card">
+                <!-- <div class="card-heading"></div> -->
+                <div class="card-body ">
+                  <h2 class="title">Arrival and Return Info</h2>
+                  <form method="POST">
+                    <div class="tab">
+                      <div class="input-gr">
+                        <div class="col-6">
+                          <h5 class="m-1 text-left">Arrival</h5>
+                          <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Choose...</option>
+                              <option>Bujalance</option>
+                              <option>Cabra</option>
+                              <option>Córdoba</option>
+                              <option>Lucena</option>
+                              <option>Montilla</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <h5 class="m-1 text-left">Return</h5>
+                          <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Choose...</option>
+                              <option>Bujalance</option>
+                              <option>Cabra</option>
+                              <option>Córdoba</option>
+                              <option>Lucena</option>
+                              <option>Montilla</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container h-100">
+                        <div class="row h-100 align-items-center justify-content-center">
+                          <div class="col-8 m-2 custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                            <label class="custom-control-label" for="defaultUnchecked">I Don't know about Arrival & Return cities yet</label>
+                          </div><br>      
+                        </div>
+                      </div>
+                      <div class="input-gr p-t-20">
+                        <div class="col-6 ">
+                          <h5 class="m-1 text-left">Arrival Conveyance</h5>
+                          <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Choose...</option>
+                              <option>Car</option>
+                              <option>Train</option>
+                              <option>Ship</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <h5 class="m-1 text-left">Return Conveyance</h5>
+                          <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Choose...</option>
+                              <option>Car</option>
+                              <option>Train</option>
+                              <option>Ship</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="container">
+                        <div><br>
+                          <a href="index.html" class="btn btn--radius btn-primary" style="float:left">
+                            <button class="text-white" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="form2.html" class="btn btn--radius btn-primary" style="float:right;">
+                            <button class="text-white" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="text-align:center;margin-top:40px;">
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                    </div>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Jquery JS-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- Vendor JS-->
+  <script src="vendor/select2/select2.min.js"></script>
+  <script src="vendor/datepicker/moment.min.js"></script>
+  <script src="vendor/datepicker/daterangepicker.js"></script>
+
+  <!-- Main JS-->
+  <script src="js/global.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- <script src="js/ind.js"></script> -->
+</body>
+</html>
